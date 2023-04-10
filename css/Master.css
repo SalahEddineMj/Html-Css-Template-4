@@ -998,6 +998,7 @@ ul {
   width: fit-content;
   margin-bottom:-12.8px;
   position: relative;
+  font-size: 13px;
 }
 .courses-page .course .info {
   border-top: 1px solid #eee;
