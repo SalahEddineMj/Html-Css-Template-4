@@ -992,13 +992,12 @@ ul {
 .courses-page .course .txt p {
   line-height: 1.6;
 }
-.courses-page .course a {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
-  margin-bottom:-12.8px;
-  position: relative;
-  font-size: 13px;
+.courses-page .course .info a.title {
+    position: absolute;
+    top: -12.8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
 }
 .courses-page .course .info {
   border-top: 1px solid #eee;
